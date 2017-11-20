@@ -1,0 +1,28 @@
+$font-family-brand: "Futura",sans-serif;
+
+*, body, html{
+	box-sizing: border-box;
+	overflow-x: hidden;
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	height: 100vh;
+	position: relative;
+	z-index: 100;
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+
+	.header-title{
+		font: 8em $font-family-brand;
+		font-weight: 700;
+		text-transform: capitalize;
+		position: absolute;
+		z-index: 2000;
+		display: flex;
+  		align-items: center;
+  		justify-content: center;
+	}
+}

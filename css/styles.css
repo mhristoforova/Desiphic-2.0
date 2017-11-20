@@ -1,3 +1,24 @@
+*, body, html {
+  box-sizing: border-box;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0; }
 
+header {
+  height: 100vh;
+  position: relative;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  header .header-title {
+    font: 8em "Futura", sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+    position: absolute;
+    z-index: 2000;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
 
 /*# sourceMappingURL=styles.css.map */
